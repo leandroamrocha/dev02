@@ -1,0 +1,4 @@
+<aura:component >
+    <aura:attribute name="message" type="String" default="Default Hello Message" />
+	<button onclick="{!c.myAction}">Press Me!</button>
+</aura:component>
